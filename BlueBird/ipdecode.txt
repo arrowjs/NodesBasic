@@ -1,0 +1,20 @@
+{
+  "geoplugin_request":"113.190.11.211",
+  "geoplugin_status":200,
+  "geoplugin_credit":"Some of the returned data includes GeoLite data created by MaxMind, available from <a href=\\'http:\/\/www.maxmind.com\\'>http:\/\/www.maxmind.com<\/a>.",
+  "geoplugin_city":"Hanoi",
+  "geoplugin_region":"Ha N\u1ed9i",
+  "geoplugin_areaCode":"0",
+  "geoplugin_dmaCode":"0",
+  "geoplugin_countryCode":"VN",
+  "geoplugin_countryName":"Vietnam",
+  "geoplugin_continentCode":"AS",
+  "geoplugin_latitude":"21.0333",
+  "geoplugin_longitude":"105.849998",
+  "geoplugin_regionCode":"44",
+  "geoplugin_regionName":"Ha N\u1ed9i",
+  "geoplugin_currencyCode":"VND",
+  "geoplugin_currencySymbol":"&#8363;",
+  "geoplugin_currencySymbol_UTF8":"\u20ab",
+  "geoplugin_currencyConverter":21349.2741
+}

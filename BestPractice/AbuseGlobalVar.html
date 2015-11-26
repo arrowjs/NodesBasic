@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abuse Global Var</title>
+    <script>
+        var now = new Date();
+        function doSomething(){
+            alert('The time is ' +  now);
+        }
+    </script>
+    <script src = "OverwriteVar.js"></script>
+</head>
+<body>
+<h1>Avoid using global variables</h1>
+<button onclick="doSomething()">Get Now</button>
+<p>variable now is overwritten by OverwriteVar.js</p>
+</body>
+</html>

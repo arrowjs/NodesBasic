@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Avoid Global Var</title>
+    <script>
+        /*(function () {  //Closure function
+            var now = new Date();
+            function doSomething() {
+                alert('The time is ' + now);
+            }
+        })();*/
+        (function () {
+            var now = new Date();
+            function doSomething() {
+                alert('The time is ' + now);
+            }
+            return doSomething;
+        })();
+    </script>
+    <script src="OverwriteVar.js"></script>
+</head>
+<body>
+<h1>Avoid using global variables</h1>
+</body>
+</html>

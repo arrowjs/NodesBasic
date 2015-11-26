@@ -1,0 +1,26 @@
+{
+  "name": "nodesbasic",
+  "version": "1.0.0",
+  "description": "Demo many samples of Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "examples"
+  ],
+  "author": "Trinh Minh Cuong'",
+  "license": "MIT",
+  "dependencies": {
+    "callsite": "^1.0.0",
+    "mongodb": "^2.0.47",
+    "winston": "^2.1.0",
+    "nodemailer": "*",
+    "bluebird": "*",
+    "needle": "*",
+    "underscore": "*",
+    "chalk": "*",
+    "async": "*"
+  }
+}
