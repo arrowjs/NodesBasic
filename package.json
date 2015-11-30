@@ -13,14 +13,16 @@
   "author": "Trinh Minh Cuong'",
   "license": "MIT",
   "dependencies": {
-    "callsite": "^1.0.0",
-    "mongodb": "^2.0.47",
-    "winston": "^2.1.0",
-    "nodemailer": "*",
+    "async": "*",
+    "bench": "^0.3.6",
     "bluebird": "*",
-    "needle": "*",
-    "underscore": "*",
+    "callsite": "^1.0.0",
     "chalk": "*",
-    "async": "*"
+    "lodash": "^3.10.1",
+    "mongodb": "^2.0.47",
+    "needle": "*",
+    "nodemailer": "*",
+    "underscore": "^1.8.3",
+    "winston": "^2.1.0"
   }
 }

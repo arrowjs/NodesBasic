@@ -14,7 +14,7 @@ class Person {
     }
 }
 
-class Child extends Person {
+class Student extends Person {
     constructor(name, age) {
         super(name, age);
     }
@@ -30,5 +30,12 @@ class Child extends Person {
     }
 }
 
-var myChild = new Child('dwayne', 27);
-myChild.sayName();
+
+
+var aStudent = new Student('dwayne', 27);
+aStudent.sayName();
+
+console.log(typeof (aStudent));
+console.log(aStudent.constructor.name);
+
+console.log(aStudent instanceof Person);
